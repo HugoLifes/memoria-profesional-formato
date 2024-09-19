@@ -1,0 +1,108 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX program = xelatex
+%% This template licensed under CC-BY-NC-SA by Koenraad De Smedt
+\documentclass[final, fmstyle, 12pt]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[spanish]{babel}
+\usepackage[margin=24mm]{geometry}
+\usepackage{fontspec,xltxtra,polyglossia,titling,graphicx,dingbat}
+\usepackage{verbatim,gb4e,synttree,multicol} % choose or add what you need   
+\usepackage[colorlinks,urlcolor=blue,citecolor=black,linkcolor=black]{hyperref}
+\setmainfont[Mapping=tex-text]{Times New Roman} % or another similar font
+\setdefaultlanguage{spanish}
+%\setotherlanguages{english}
+\usepackage[numbers]{natbib}
+\usepackage{xspace}
+\usepackage{float}
+\usepackage{dirtytalk}
+\usepackage{subfiles}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=black,
+    pdftitle={Memoria experiencia profesional},
+    pdfpagemode=FullScreen,
+    }
+\urlstyle{same}
+\frenchspacing
+%\newcommand{\checkmark}{x}
+
+\title{MEMORIA DE EXPERIENCIA PROFESIONAL EN LA EMPRESA [NOMBRE]}
+\author{[Nombre del alumno]}
+\date{\today}
+\hyphenation{unicode}
+\usepackage{url}
+\usepackage{hyperref}
+%\usepackage[bitstream-charter]{mathdesign}
+\begin{document}
+\renewcommand{\tablename}{Tabla}
+	\thispagestyle{empty}
+\begin{center} \vfill
+{\Large UNIVERSIDAD AUTÓNOMA DE CIUDAD JUÁREZ}\\
+\vspace{6mm}
+{\large Instituto de Ingeniería y Tecnología\\
+\vspace{6mm}
+Departamento de Ingeniería Eléctrica y Computación
+\vspace{20mm}
+
+\includegraphics [scale=0.7]{imagenes/escudo-uacj} 
+\vspace{10mm}
+
+
+\thetitle\\
+\vspace{15mm}
+
+Protocolo de investigación presentado por:\\
+\vspace{6mm}
+\theauthor\hspace{10mm} [MATRICULA]\\
+\vspace{10mm}
+Requisito para la obtención del título de\\
+\vspace{6mm}
+INGENIERO EN SOFTWARE\\
+\vspace{10mm}
+
+Asesor:\\
+{[Nombre ASESOR]}\\
+} \vfill
+	Ciudad Juárez, Chihuahua \hspace{70mm}\today
+
+% {\small \href{https://creativecommons.org/licenses/by/4.0/}{\includegraphics[height=1.2em]{cc-by}} by \theauthor}
+\clearpage
+
+\end{center}
+
+{ % Indices
+	\hypersetup{linkcolor=black}
+	\tableofcontents
+	\clearpage
+	\listoffigures
+	\clearpage
+	% \listoftables
+	% \clearpage
+}
+
+
+% \section{Introducción}
+% [Indique de forma clara y coherente en una cuartilla cuál es la nueva contribución, su importancia y por qué es adecuado para sistemas computacionales. Se sugiere para su redacción seguir los cinco pasos siguientes: 1) Establezca el campo de investigación al que pertenece el proyecto, 2) describa los aspectos del problema más que ya han sido estudiado por otros investigadores, 3) explique el área de oportunidad que pretende cubrir el proyecto propuesto, 4) describa el propósito/objetivo del proyecto y 5) proporcione el valor positivo o la justificación para llevar a cabo el proyecto.] 
+% \newpage
+
+% Entorno Laboral
+\subfile{entorno-laboral}
+
+\subfile{experiencia-laboral}
+
+\subfile{conclusiones}
+
+\newpage
+\bibliographystyle{IEEEtranN}
+% \bibliographystyle{plainurl}
+\bibliography{referencias}
+%\nocite{*} 
+
+\clearpage
+\appendix
+
+\section{Apéndice}
+
+\end{document}  
