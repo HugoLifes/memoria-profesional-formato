@@ -1,0 +1,18 @@
+\selectlanguage *[]{spanish}
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Entorno laboral}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Apia ingeniería}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Soluciones móviles y comunicaciones S.A de C.V}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Grupo Tomza (APSTA)}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Experiencia laboral}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Apia ingeniería}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Soluciones móviles y comunicaciones S.A de C.V}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Grupo tomza (APSTA)}{10}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Resultados}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Resultados del Proyecto Datafire}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Resultados del Proyecto I Tracking}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Resultados del Proyecto Followme}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Resultados del Proyecto Adcom}{14}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Resultados del Proyecto Zae}{15}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Resultados del Proyecto Zae Ejecutivo}{16}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Conclusiones}{17}{section.5}%
