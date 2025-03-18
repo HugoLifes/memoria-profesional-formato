@@ -22,16 +22,32 @@ Como resultados de la implementación de \textit{DataFire}, se logró:
 
 El proyecto \textit{DataFire} le permitió adquirir experiencia en el desarrollo de sistemas financieros empresariales y fortalecer las habilidades en el análisis de datos, la gestión de bases de datos y la programación en \textit{Flutter} y \textit{NodeJs}.
 
-\subsection{Casos de uso \textit{DataFire} }
+\subsection{Diagrama de flujo \textit{DataFire} }
+\textbf{Funcionamiento:}
+\begin{enumerate}
+    \item \textbf{Inicio y Selección de Módulo:}  
+    El diagrama inicia con el usuario que se autentica y luego selecciona el módulo que desea gestionar.
+    \item \textbf{Decisiones por Módulo:} 
+    \item Se utilizan nodos de decisión para determinar cuál módulo se va a gestionar:
+        \begin{itemize}
+            \item \textbf{Gestión Financiera:}  Permite administrar transacciones y generar reportes..
+            \item \textbf{Gestión de Proyectos:}  Incluye la administración de proyectos, presupuesto, asignación de recursos y pagos o abonos.
+            \item \textbf{Gestión de Personas:}  Cubre el alta de personas, asignación a proyectos, pago de nómina y gestión de usuarios.
+            \item \textbf{Visualización:} Ofrece opciones para ver dashboards, gráficas y reportes de nóminas.
+        \end{itemize}
+    \item \textbf{Selección Reiterada y Finalización:} 
+    Después de gestionar un módulo, el diagrama permite volver a seleccionar otro módulo, hasta finalizar la sesión.
+\end{enumerate}
 
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Imagenes/datafire.png}
+\end{center}
+\begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
+    \centering
+    \caption{Diagrama de flujo DataFire.}
+    \label{fig:mi-figura}
+\end{figure}
 
-\includegraphics[scale=0.7]{Imagenes/datafirept1.png}
-
-
-\includegraphics[scale=0.7]{Imagenes/datafirept2.png}
-
-
-\includegraphics[scale=0.7]{Imagenes/datafirept3.png}
 
 
 \subsection{Resultados del proyecto \textit{VehicleTracking}}
@@ -46,9 +62,31 @@ Como resultado de las pruebas de \textit{VehicleTracking}, se observó:
 
 El proyecto \textit{VehicleTracking} le permitió adquirir experiencia en el desarrollo de sistemas de visión artificial y aprendizaje automático, así como en el procesamiento de imágenes y la programación en  \textit{Python},  \textit{YOLO} y  \textit{Ultralytics}.  Además, le brindó la oportunidad de trabajar con tecnologías de vanguardia y contribuir a la automatización de procesos en el ámbito del aforo vehicular.
 
-\subsection{Casos de uso \textit{VehicleTracking}} 
+\subsection{Diagrama de flujo \textit{VehicleTracking}} 
+\textbf{Funcionamiento:}
+\begin{enumerate}
+    \item \textbf{Inicio:}  
+    El usuario abre el sistema.
+    \item \textbf{Selección de archivo:}  
+    El usuario elige el video que desea procesar.
+    \item \textbf{Reproducción:}  
+    Puede (opcionalmente) iniciar la reproducción y controlarla (pausar, avanzar, retroceder).
+    \item \textbf{Análisis con IA:}
+    Se realiza el análisis del video para la detección de vehículos.
+    \item \textbf{Reporte:}
+    Se genera el reporte de conteo de vehículos.
+    \item \textbf{Fin:}      
+    El usuario finaliza la sesión o cierra el sistema.
+\end{enumerate}
 
-\includegraphics[scale=0.5]{Imagenes/vehicle.png}
+\begin{center}
+\includegraphics[scale=0.5]{Imagenes/vehicleTracking.png}
+\end{center}
+\begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
+    \centering
+    \caption{Diagrama de flujo VehicleTracking.}
+    \label{fig:mi-figura2}
+\end{figure}
 
 \subsection{Resultados del proyecto CRM}
 
@@ -64,10 +102,25 @@ Estos resultados ayudaron a que la empresa ofreciera un mejor servicio de \texti
 
 El sistema CRM le permitió adquirir conocimientos para realizar un oyente para posteriormente procesar y manejar datos en hexadecimal además de fortalecer las habilidades de Héctor Hugo en lenguaje \textit{Python} y crecer en el ámbito de las conexiones TCP/IP.
 
-\subsection{Casos de uso \textit{CRM}} 
-
+\subsection{Caso de uso \textit{CRM}} 
+\textbf{Funcionamiento:}
+\begin{enumerate}
+    \item \textbf{Receptor de Datos Hexadecimales:}  
+    Este componente recibe datos en formato hexadecimal y decodifica a un formato mas manejable
+    \item \textbf{Transformador a Datos Geográficos:}  
+    Toma la información decodificada por el receptor y la convierte en coordenadas geográficas y una vez obtenida las envía al visualizador.
+    \item \textbf{Visualizador de Geolocalización:}  
+    Recibe los datos geográficos y los muestra de forma visual, sobre un mapa.
+    
+\end{enumerate}
+\begin{center}
 \includegraphics[scale=0.6]{Imagenes/listener.png}
-
+\end{center}
+\begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
+    \centering
+    \caption{Caso de uso CRM.}
+    \label{fig:mi-figura3}
+\end{figure}
 \subsection{Resultados del proyecto \textit{FollowMe}}
 
 El proyecto \textit{FollowMe} consistió en el desarrollo de un sistema para visualizar tráilers con cargas importantes mediante \textit{GoogleMaps}.  Se utilizó un dispositivo llamado Calamp que emitía señales en hexadecimal, para lo cual se desarrolló un oyente llamado CRM que capturaba la información y  actualizaba la base de datos con la ubicación en tiempo real.  Además, se implementó una vista para visualizar la ubicación y la telemetría del tráiler, con el fin de capturar datos y tomar medidas en tiempo real en caso de cualquier circunstancia.\vspace{4mm}
@@ -80,10 +133,43 @@ Como resultado de la implementación de \textit{Followme}, se logró:
 
 El proyecto \textit{Followme} permitió adquirir experiencia en el desarrollo de sistemas de rastreo en tiempo real y la integración con dispositivos de hardware. También brindó la oportunidad de aplicar las habilidades en la gestión de bases de datos y el desarrollo de interfaces de usuario.
 
-\subsection{Casos de uso \textit{FollowMe}} 
+\subsection{Diagrama de flujo \textit{FollowMe}} 
+\textbf{Funcionamiento:}
+\begin{enumerate}
+    \item \textbf{Inicio:}  
+    El usuario abre o inicia la aplicación \textit{FollowMe}.
+    \item \textbf{Ingreso de Datos:}  
+    El usuario ingresa el código del contenedor que desea consultar.
+    \item \textbf{Decisión: Ver Ubicación en Mapa:}  
+    \begin{itemize}
+        \item Si el usuario elige ver la ubicación, el sistema muestra un mapa con la posición del contenedor.
+        \item De lo contrario, se salta este paso.
+    \end{itemize}
+    \item \textbf{Decisión: Ver Cálculo de Distancia:} 
+    \begin{itemize}
+        \item Si el usuario desea conocer la distancia o el estado de proximidad, el sistema realiza el cálculo y lo muestra.
+        \item Si no, se omite.
+    \end{itemize}
+    \item \textbf{Decisión: Ver Información del Contenedor:} 
+    Si el usuario elige ver la información del contenedor, el sistema presenta:
+    \item \begin{itemize}
+        \item Información general (detalles, estado, etc.).
+        \item Nivel de combustible.
+        \item Velocidad.
+        \item Temperatura del contenedor.
+    \end{itemize}
+    \item \textbf{Fin:} 
+    El proceso termina cuando el usuario decide no ver más información o cierra la aplicación.
+\end{enumerate}
 
+\begin{center}
 \includegraphics[scale=0.5]{Imagenes/followme.png}
-
+\end{center}
+\begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
+    \centering
+    \caption{Diagrama de flujo FollowMe.}
+    \label{fig:mi-figura4}
+\end{figure}
 \subsection{Resultados del proyecto AdCom}
 
 El proyecto AdCom se enfocó en el desarrollo de un sistema de administración de fraccionamientos con el objetivo de  mejorar la comunicación entre la administración y los residentes,  facilitar el acceso a la información y agilizar los procesos administrativos.  A través de este sistema, los residentes pueden  familiarizarse con su residencia,  disfrutar de sus recursos,  consultar sus deudas y realizar pagos de forma online.\vspace{4mm}
@@ -100,18 +186,32 @@ Estos resultados contribuyeron a que la empresa  optimizara la administración d
 
 El proyecto Adcom permitió adquirir experiencia en el desarrollo de sistemas web para la gestión de comunidades,  la integración de pasarelas de pago y la  implementación  de  sistemas  de  notificación.  Además,  fortaleció  las  habilidades  en  el  diseño  de  interfaces  de  usuario  intuitivas  y  la  gestión  de  proyectos  con  enfoque  en  la  experiencia  del  usuario.
 
-\subsection{Casos de uso \textit{AdCom}} 
-\includegraphics[scale=0.8]{Imagenes/adminfracpt1.png}
+\subsection{Diagrama de flujo \textit{AdCom}} 
 
+\textbf{Funcionamiento:}
 
-\includegraphics[scale=0.8]{Imagenes/adminfracpt2.png}
-
-
-\includegraphics[scale=0.8]{Imagenes/adminfracpt3.png}
-
-
-\includegraphics[scale=0.8]{Imagenes/adminfracpt4.png}
-
+\begin{enumerate}
+    \item \textbf{Inicio de Sesión:}  
+    El actor (Usuario o Administrador) se autentica en la aplicación.
+    \item \textbf{Decisiones por Área:} 
+    \begin{itemize}
+        \item \textbf{Gestionar Pagos:}  Quien lo elige (usuario o admin) puede realizar las tareas correspondientes (pagar renta, ver adeudos, generar reportes, etc.).
+        \item \textbf{Gestionar Reportes:}  Se generan o consultan reportes, y el administrador puede responder o actualizar.
+        \item \textbf{Gestionar Amenidades:}  Se pueden reservar, cancelar o ver disponibilidad de amenidades. El administrador, además, gestiona la configuración general de estas.
+    \end{itemize} 
+    
+    \item \textbf{Fin:}  
+    Cuando el actor ya no necesita hacer más acciones, sale de la aplicación.
+    
+\end{enumerate}
+\begin{center}
+\includegraphics[scale=0.5]{Imagenes/adcom.png}
+\end{center}
+\begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
+    \centering
+    \caption{Diagrama de flujo AdCom.}
+    \label{fig:mi-figura5}
+\end{figure}
 
 \subsection{Resultados del proyecto Zae}
 
@@ -129,10 +229,32 @@ Zae se convirtió en el sistema clave de la empresa,  permitiendo una mejor gest
 
 El proyecto Zae le permitió adquirir experiencia en el desarrollo e implementación de sistemas ERP,  la integración de diferentes módulos y la gestión de bases de datos a gran escala. Además, fortaleció las habilidades en el análisis de requerimientos, el diseño de soluciones  y  el  trabajo  en  equipo  con  diferentes  áreas  de  la  empresa.\vspace{4mm}
 
-\subsection{Casos de uso \textit{Zae}} 
+\subsection{Diagrama de flujo \textit{Zae}} 
+\textbf{Funcionamiento:}
+\begin{enumerate}
+    \item \textbf{Inicio: }  
+    El usuario inicia sesión en el sistema.
+    \item \textbf{Administrar Ventas y Facturación:}  
+    El usuario puede (o no) realizar la venta y facturación en ese momento.
+    \item \textbf{Administrar Gas:}  
+    Si corresponde, gestiona inventario de gas y registra cuentas por pagar a los proveedores.
+    \item \textbf{Administrar Empleados:} 
+    Opcionalmente, el usuario puede crear, modificar o dar de baja empleados.
+    \item \textbf{Apertura/Cierre de Caja:} 
+    Para controlar el flujo de efectivo, se realiza la apertura y/o cierre de caja cuando sea necesario.
+    \item \textbf{Fin:}
+    El proceso concluye cuando el usuario no tiene más acciones que realizar.  
+\end{enumerate}
+
+
+\begin{center}
 \includegraphics[scale=0.5]{Imagenes/zae.png}
-
-
+\end{center}
+\begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
+    \centering
+    \caption{Diagrama de flujo Zae.}
+    \label{fig:mi-figura6}
+\end{figure}
 \subsection{Resultados del proyecto Zae Ejecutivo}
 
 El proyecto Zae Ejecutivo se enfocó en el desarrollo de un sistema web que globaliza los datos del sistema Zae y los presenta de forma visual con gráficos  y  datos  concretos.  Este sistema se diseñó para  facilitar  la  comprensión  de  métricas  clave  como  las  ventas,  el  rendimiento  de  presupuestos  y  el  rendimiento  de  las  plantas,  y  permitir  la  creación  de  reportes  globales.  Zae  Ejecutivo  se  orientó  a  gerentes  y  altos  ejecutivos  de  la  compañía.\vspace{4mm}
@@ -148,20 +270,79 @@ Zae Ejecutivo logró que los ejecutivos de la empresa administraran mejor sus re
 
 El proyecto Zae Ejecutivo le permitió adquirir experiencia en el desarrollo de sistemas de  \textit{business intelligence}, la visualización de datos y la creación de  \textit{Dashboards}  interactivos. Además, fortaleció las habilidades en  el  diseño  de interfaces  de  usuario  para  altos  ejecutivos y la presentación de información de forma clara  y concisa.
 
-\subsection{Casos de uso \textit{Zae Ejecutivo}}
-\includegraphics[scale=0.5]{Imagenes/zaeEjept1.png}
+\subsection{Diagrama de flujo \textit{Zae Ejecutivo}}
+\textbf{Funcionamiento:}
+\begin{enumerate}
+    \item \textbf{Inicio de sesión: }  
+    \begin{itemize}
+        \item El usuario abre la aplicación “Zae Ejecutivo” e inicia sesión.
+        \item Este paso inicial establece el punto de partida para realizar cualquier acción dentro del sistema.
+        
+    \end{itemize}
+    \item \textbf{Ver reportes financieros:}  
+    \begin{itemize}
+        \item El diagrama presenta una decisión: si el usuario desea consultar reportes financieros, entra a esa sección.
+        \item Dentro de esta sección, el sistema muestra ganancias y pérdidas.
+        \item Si el usuario no necesita verlos, simplemente pasa al siguiente paso.
+        
+    \end{itemize}
+    \item \textbf{Ver estadísticas en dashboard:}  
+    \begin{itemize}
+        \item De forma similar, se pregunta si el usuario quiere ver las estadísticas generales (en un dashboard).
+        \item Si sí, se muestran métricas globales o indicadores claves del negocio (ventas totales, comparativas, etc.).
+        \item Si no, continúa con el siguiente punto.
+        
+    \end{itemize}
+    \item \textbf{Consultar ventas:} 
+    \begin{itemize}
+        \item El usuario puede decidir consultar las ventas en distintos rangos de tiempo: día, semana, mes o año.
+        \item Esta parte puede ayudar a entender la evolución de las ventas y patrones de consumo.
+        \item De nuevo, si no es necesario, el usuario salta este paso.
+        
+    \end{itemize}
+    \item \textbf{Consultar sucursales:} 
+    \begin{itemize}
+        \item En caso de tener múltiples sucursales, el sistema permite ver cuáles tienen mejores o peores ventas, así como un reporte de otras sucursales.
+        \item El usuario revisa esta información solo si la necesita.
+        
+        
+    \end{itemize}
+    \item \textbf{Administrar empleados:}
+    Aquí el usuario puede:
+    \begin{itemize}
+        \item Dar de alta nuevos empleados.
+        \item Dar de baja empleados que ya no laboran.
+        \item Asignar roles (ej. cajero, gerente, etc.).
+        \item Ver el mejor vendedor de la zona (por ejemplo, basado en metas de venta).
+        \item Si no se requiere esta tarea en ese momento, se omite.
+
+    \end{itemize}
+    \item \textbf{Gestionar presupuestos:} 
+   \begin{itemize}
+        \item El sistema ofrece la generación de permisos de presupuestos (probablemente para autorizar compras o gastos).
+        \item Se lleva a cabo solo si el usuario tiene la necesidad de hacerlo.
+
+    \end{itemize}
+    \item \textbf{Consultar conciliaciones:}
+    \begin{itemize}
+        \item El usuario puede ver la conciliación de cuentas o movimientos financieros para asegurar que coincidan con registros bancarios o contables.
+        \item Se hace únicamente cuando es pertinente.
+
+    \end{itemize}
+    \item \textbf{Fin:}  
+    \begin{itemize}
+        \item El flujo termina cuando el usuario no requiere más acciones o cierra la aplicación.
+    \end{itemize}
+\end{enumerate}
 
 
-\includegraphics[scale=0.5]{Imagenes/zaeEjept2.png}
 
-
-\includegraphics[scale=0.5]{Imagenes/zaeEjept3.png}
-
-
-\includegraphics[scale=0.5]{Imagenes/zaeEjept4.png}
-
-
-\includegraphics[scale=0.5]{Imagenes/zaeEjept5.png}
-
-
+\begin{center}
+\includegraphics[scale=0.4]{Imagenes/zaeEjecutivo.png}
+\end{center}
+\begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
+    \centering
+    \caption{Diagrama de flijo Zae Ejecutivo.}
+    \label{fig:mi-figura7}
+\end{figure}
 \end{document}

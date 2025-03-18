@@ -10,18 +10,18 @@
 \contentsline {subsection}{\numberline {3.3}Grupo Tomza}{14}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Resultados}{16}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Resultados del proyecto \textit {DataFire}}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Casos de uso \textit {DataFire} }{17}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Resultados del proyecto \textit {VehicleTracking}}{19}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Casos de uso \textit {VehicleTracking}}{21}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Resultados del proyecto CRM}{22}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Casos de uso \textit {CRM}}{22}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Resultados del proyecto \textit {FollowMe}}{22}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Casos de uso \textit {FollowMe}}{24}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Resultados del proyecto AdCom}{25}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Casos de uso \textit {AdCom}}{26}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Resultados del proyecto Zae}{29}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Casos de uso \textit {Zae}}{30}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Resultados del proyecto Zae Ejecutivo}{31}{subsection.4.13}%
-\contentsline {subsection}{\numberline {4.14}Casos de uso \textit {Zae Ejecutivo}}{31}{subsection.4.14}%
-\contentsline {section}{\numberline {5}Conclusiones}{34}{section.5}%
-\contentsline {section}{\numberline {6}Apéndice}{37}{section.6}%
+\contentsline {subsection}{\numberline {4.2}Diagrama de flujo \textit {DataFire} }{17}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Resultados del proyecto \textit {VehicleTracking}}{18}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Diagrama de flujo \textit {VehicleTracking}}{18}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Resultados del proyecto CRM}{19}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Caso de uso \textit {CRM}}{20}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Resultados del proyecto \textit {FollowMe}}{20}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Diagrama de flujo \textit {FollowMe}}{21}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Resultados del proyecto AdCom}{22}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Diagrama de flujo \textit {AdCom}}{23}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Resultados del proyecto Zae}{24}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Diagrama de flujo \textit {Zae}}{25}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Resultados del proyecto Zae Ejecutivo}{26}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}Diagrama de flujo \textit {Zae Ejecutivo}}{27}{subsection.4.14}%
+\contentsline {section}{\numberline {5}Conclusiones}{30}{section.5}%
+\contentsline {section}{\numberline {6}Apéndice}{32}{section.6}%
