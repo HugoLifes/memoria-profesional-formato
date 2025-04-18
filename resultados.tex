@@ -39,8 +39,10 @@ El proyecto \textit{DataFire} le permitió adquirir experiencia en el desarrollo
     Después de gestionar un módulo, el diagrama permite volver a seleccionar otro módulo, hasta finalizar la sesión.
 \end{enumerate}
 
+A continuación en la Figura 1 se muestra el diagrama de flujo del sistema \textit{DataFire}:\vspace{2mm}
+
 \begin{center}
-\includegraphics[width=0.5\textwidth]{Imagenes/datafire.png}
+\includegraphics[width=0.75\textwidth]{Imagenes/datafireF2.png}
 \end{center}
 \begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
     \centering
@@ -79,8 +81,10 @@ El proyecto \textit{VehicleTracking} le permitió adquirir experiencia en el des
     El usuario finaliza la sesión o cierra el sistema.
 \end{enumerate}
 
+A continuación en la Figura 2 se muestra el diagrama de flujo del sistema \textit{VehicleTracking}:\vspace{4mm}
+
 \begin{center}
-\includegraphics[scale=0.5]{Imagenes/vehicleTracking.png}
+\includegraphics[scale=0.6]{Imagenes/pdf/VehicleTkF.png}
 \end{center}
 \begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
     \centering
@@ -111,16 +115,17 @@ El sistema CRM le permitió adquirir conocimientos para realizar un oyente para 
     Toma la información decodificada por el receptor y la convierte en coordenadas geográficas y una vez obtenida las envía al visualizador.
     \item \textbf{Visualizador de Geolocalización:}  
     Recibe los datos geográficos y los muestra de forma visual, sobre un mapa.
-    
 \end{enumerate}
+a continuación en la Figura 3 se muestra el diagrama de flujo del sistema CRM:\vspace{4mm}
 \begin{center}
-\includegraphics[scale=0.6]{Imagenes/listener.png}
+\includegraphics[scale=0.6]{Imagenes/pdf/crmF.png}
 \end{center}
 \begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
     \centering
-    \caption{Caso de uso CRM.}
+    \caption{Diagrama de flujo CRM.}
     \label{fig:mi-figura3}
 \end{figure}
+
 \subsection{Resultados del proyecto \textit{FollowMe}}
 
 El proyecto \textit{FollowMe} consistió en el desarrollo de un sistema para visualizar tráilers con cargas importantes mediante \textit{GoogleMaps}.  Se utilizó un dispositivo llamado Calamp que emitía señales en hexadecimal, para lo cual se desarrolló un oyente llamado CRM que capturaba la información y  actualizaba la base de datos con la ubicación en tiempo real.  Además, se implementó una vista para visualizar la ubicación y la telemetría del tráiler, con el fin de capturar datos y tomar medidas en tiempo real en caso de cualquier circunstancia.\vspace{4mm}
@@ -140,18 +145,18 @@ El proyecto \textit{Followme} permitió adquirir experiencia en el desarrollo de
     El usuario abre o inicia la aplicación \textit{FollowMe}.
     \item \textbf{Ingreso de Datos:}  
     El usuario ingresa el código del contenedor que desea consultar.
-    \item \textbf{Decisión: Ver Ubicación en Mapa:}  
+    \item \textbf{Ver Ubicación en Mapa:}  
     \begin{itemize}
-        \item Si el usuario elige ver la ubicación, el sistema muestra un mapa con la posición del contenedor.
-        \item De lo contrario, se salta este paso.
+        \item El usuario ve la ubicación, el sistema muestra un mapa con la posición del contenedor.
+       
     \end{itemize}
-    \item \textbf{Decisión: Ver Cálculo de Distancia:} 
+    \item \textbf{Ver Cálculo de Distancia:} 
     \begin{itemize}
-        \item Si el usuario desea conocer la distancia o el estado de proximidad, el sistema realiza el cálculo y lo muestra.
-        \item Si no, se omite.
+        \item El usuario desea conocer la distancia o el estado de proximidad, el sistema realiza el cálculo y lo muestra.
+        
     \end{itemize}
-    \item \textbf{Decisión: Ver Información del Contenedor:} 
-    Si el usuario elige ver la información del contenedor, el sistema presenta:
+    \item \textbf{Ver Información del Contenedor:} 
+    Ver la información del contenedor, el sistema presenta:
     \item \begin{itemize}
         \item Información general (detalles, estado, etc.).
         \item Nivel de combustible.
@@ -161,9 +166,9 @@ El proyecto \textit{Followme} permitió adquirir experiencia en el desarrollo de
     \item \textbf{Fin:} 
     El proceso termina cuando el usuario decide no ver más información o cierra la aplicación.
 \end{enumerate}
-
+A continuación en la Figura 4 se muestra el diagrama de flujo del sistema \textit{FollowMe}:\vspace{4mm}
 \begin{center}
-\includegraphics[scale=0.5]{Imagenes/followme.png}
+\includegraphics[scale=0.6]{Imagenes/Pdf/followmeF.png}
 \end{center}
 \begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
     \centering
@@ -193,7 +198,7 @@ El proyecto Adcom permitió adquirir experiencia en el desarrollo de sistemas we
 \begin{enumerate}
     \item \textbf{Inicio de Sesión:}  
     El actor (Usuario o Administrador) se autentica en la aplicación.
-    \item \textbf{Decisiones por Área:} 
+    \item \textbf{Áreas:} 
     \begin{itemize}
         \item \textbf{Gestionar Pagos:}  Quien lo elige (usuario o admin) puede realizar las tareas correspondientes (pagar renta, ver adeudos, generar reportes, etc.).
         \item \textbf{Gestionar Reportes:}  Se generan o consultan reportes, y el administrador puede responder o actualizar reportes y mensajes.
@@ -202,10 +207,11 @@ El proyecto Adcom permitió adquirir experiencia en el desarrollo de sistemas we
     
     \item \textbf{Fin:}  
     Cuando el actor ya no necesita hacer más acciones, sale de la aplicación.
-    
+
 \end{enumerate}
+A continuación en la Figura 5 se muestra el diagrama de flujo del sistema AdCom:\vspace{4mm}
 \begin{center}
-\includegraphics[scale=0.5]{Imagenes/adcom.png}
+\includegraphics[scale=0.5]{Imagenes/Pdf/AdcomF.png}
 \end{center}
 \begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
     \centering
@@ -246,9 +252,11 @@ El proyecto Zae le permitió adquirir experiencia en el desarrollo e implementac
     El proceso concluye cuando el usuario no tiene más acciones que realizar.  
 \end{enumerate}
 
+A continuación en la Figura 6 se muestra el diagrama de flujo del sistema Zae:\vspace{4mm}
+
 
 \begin{center}
-\includegraphics[scale=0.5]{Imagenes/zae.png}
+\includegraphics[scale=0.6]{Imagenes/Pdf/zaeF.png}
 \end{center}
 \begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
     \centering
@@ -281,40 +289,40 @@ El proyecto Zae Ejecutivo le permitió adquirir experiencia en el desarrollo de 
     \end{itemize}
     \item \textbf{Ver reportes financieros:}  
     \begin{itemize}
-        \item El diagrama presenta una decisión: si el usuario desea consultar reportes financieros, entra a esa sección.
+        \item Consultar reportes financieros, entra a esa sección.
         \item Dentro de esta sección, el sistema muestra ganancias y pérdidas.
-        \item Si el usuario no necesita verlos, simplemente pasa al siguiente paso.
+        
         
     \end{itemize}
     \item \textbf{Ver estadísticas en dashboard:}  
     \begin{itemize}
-        \item De forma similar, se pregunta si el usuario quiere ver las estadísticas generales (en un dashboard).
-        \item Si sí, se muestran métricas globales o indicadores claves del negocio (ventas totales, comparativas, etc.).
-        \item Si no, continúa con el siguiente punto.
+        \item Ver las estadísticas generales (en un dashboard).
+        \item Se muestran métricas globales o indicadores claves del negocio (ventas totales, comparativas, etc.).
+        
         
     \end{itemize}
     \item \textbf{Consultar ventas:} 
     \begin{itemize}
-        \item El usuario puede decidir consultar las ventas en distintos rangos de tiempo: día, semana, mes o año.
+        \item Consultar las ventas en distintos rangos de tiempo: día, semana, mes o año.
         \item Esta parte puede ayudar a entender la evolución de las ventas y patrones de consumo.
-        \item De nuevo, si no es necesario, el usuario salta este paso.
+        
         
     \end{itemize}
     \item \textbf{Consultar sucursales:} 
     \begin{itemize}
         \item En caso de tener múltiples sucursales, el sistema permite ver cuáles tienen mejores o peores ventas, así como un reporte de otras sucursales.
-        \item El usuario revisa esta información solo si la necesita.
+        \item El usuario revisa esta información si la necesita.
         
         
     \end{itemize}
     \item \textbf{Administrar empleados:}
-    Aquí el usuario puede:
+    El usuario puede:
     \begin{itemize}
         \item Dar de alta nuevos empleados.
         \item Dar de baja empleados que ya no laboran.
         \item Asignar roles (ej. cajero, gerente, etc.).
         \item Ver el mejor vendedor de la zona (por ejemplo, basado en metas de venta).
-        \item Si no se requiere esta tarea en ese momento, se omite.
+        
 
     \end{itemize}
     \item \textbf{Gestionar presupuestos:} 
@@ -335,10 +343,12 @@ El proyecto Zae Ejecutivo le permitió adquirir experiencia en el desarrollo de 
     \end{itemize}
 \end{enumerate}
 
+A continuación en la Figura 7 se muestra el diagrama de flujo del sistema Zae Ejecutivo:\vspace{4mm}
+
 
 
 \begin{center}
-\includegraphics[scale=0.4]{Imagenes/zaeEjecutivo.png}
+\includegraphics[scale=0.6]{Imagenes/Pdf/zaeejecutivoF.png}
 \end{center}
 \begin{figure}[h]  % 'htbp' indica las posiciones preferidas: here, top, bottom, page
     \centering
